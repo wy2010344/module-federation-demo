@@ -5,10 +5,10 @@ import moduleFederationConfig from './module-federation.config'
 
 export default defineConfig({
   output: {
-    assetPrefix: 'https://mf3-6sa.pages.dev/',
+    assetPrefix: 'https://mf1-6az.pages.dev/',
   },
   plugins: [pluginReact(), pluginModuleFederation(moduleFederationConfig)],
   server: {
-    port: 3002,
+    port: 3000,
   },
 })

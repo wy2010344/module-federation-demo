@@ -1,6 +1,4 @@
 import { createModuleFederationConfig } from '@module-federation/rsbuild-plugin'
-
-console.log('sss', process.env.NODE_ENV)
 /**
  * provider
  */
@@ -14,7 +12,7 @@ export default createModuleFederationConfig({
   remotes: {
     provider:
       process.env.NODE_ENV === 'development'
-        ? 'rslib_provider@http://localhost:3000/mf-manifest.json'
+        ? 'rslib_provider@http://localhost:3002/mf-manifest.json'
         : 'rslib_provider@https://mf3-6sa.pages.dev/mf-manifest.json',
   },
   shareStrategy: 'loaded-first',
