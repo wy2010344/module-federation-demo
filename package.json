@@ -9,7 +9,7 @@
     "dev": "pnpm --parallel --filter \"mf_project_*\" dev",
     "dev:mf2": "pnpm --filter mf_project_2 dev",
     "dev:mf3": "pnpm --filter mf_project_3 dev",
-    "build": "pnpm --parallel --filter \"mf_project_*\" build",
+    "build": "pnpm --parallel build",
     "build:mf2": "pnpm --filter mf_project_2 build",
     "build:mf3": "pnpm --filter mf_project_3 build",
     "preview": "pnpm --parallel --filter \"mf_project_*\" preview",
