@@ -17,6 +17,12 @@
       "path": "packages/mf_project_3",
       "cloudflare_project": "mf3",
       "url": "https://mf3-6sa.pages.dev/"
+    },
+    {
+      "name": "capacitor-demo",
+      "path": "packages/capacitor-demo",
+      "cloudflare_project": "capacitor-demo",
+      "url": "https://capacitor-demo.pages.dev"
     }
   ]
 }

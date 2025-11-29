@@ -1,0 +1,10 @@
+{
+  "appId": "com.wangy.com",
+  "appName": "capacitor-demo",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    }
+  }
+}
