@@ -27,6 +27,7 @@ const App = () => {
         Take Photo
       </button>
       <img src={img} />
+      <hr />
       <Provider />
     </div>
   )
